@@ -66,19 +66,6 @@ p{
     margin: 25px 0;
 }
 
-.btn{
-    display: inline-block;
-    background: #ff523b;
-    color: #fff;
-    padding: 8px 30px;
-    margin: 30px 0;
-    border-radius: 30px;
-    transition: background 0.5s;
-}
-.btn:hover{
-    background: #563434;
-}
-
 .header{
     background: radial-gradient(#fff, #ffd6d6);     /* Radial color to the header*/
 }
@@ -446,11 +433,13 @@ td img{
     justify-content: flex-end;
 }
 
+
 .total-price table{
     border-top: 3px solid #ff523b;
     width: 100%;
     max-width: 370px;
 }
+
 
 td:last-child{
     text-align: right;
