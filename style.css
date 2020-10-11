@@ -257,7 +257,8 @@ h4{
     text-align: center;
 }
 .footer-col-2 p{
-    line-height: 50px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .footer-col-2 img{
@@ -268,7 +269,13 @@ h4{
 .footer-col-3, .footer-col-4{
     flex-basis: 12%;
     text-align: center;
-    line-height: 30px;
+    line-height: 30px;    
+}
+.social a{
+   color: #ccc;
+}
+.social a:hover{
+    color: #fff;
 }
 
 ul{
@@ -279,6 +286,8 @@ ul{
 }
 
 .app-logo img{
+    display: inline-block;
+    margin: 0 auto;
     width: 140px;
 }
 
